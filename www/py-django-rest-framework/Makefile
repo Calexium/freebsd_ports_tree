@@ -1,7 +1,7 @@
 # Created by: Cedric Ricard <ricard+freebsd@free.fr>
 # $FreeBSD: $
 
-PORTNAME=	django-rest-framework
+PORTNAME=	djangorestframework
 PORTVERSION=	2.4.4
 CATEGORIES=	www python
 MASTER_SITES=	CHEESESHOP
@@ -12,7 +12,7 @@ COMMENT=	Django REST framework is a powerful and flexible toolkit that makes it 
 
 LICENSE=	BSD
 
-RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django>0:${PORTSDIR}/www/py-django
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}django>=1.4:${PORTSDIR}/www/py-django
 
 USES=		python
 USE_PYTHON=	autoplist distutils
