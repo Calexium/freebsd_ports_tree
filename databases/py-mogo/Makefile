@@ -10,7 +10,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	ricard+freebsd@free.fr
 COMMENT=	Simple PyMongo "schema-less" object wrapper.
 
-LICENSE=	APACHE2
+LICENSE=	APACHE20
 
 RUN_DEPENDS=	pymongo>=2.8:${PORTSDIR}/databases/pymongo
 
